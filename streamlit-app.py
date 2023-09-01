@@ -1,7 +1,7 @@
 import streamlit
 import pandas
 import requests
-import respose
+import resposes
 
 streamlit.title("Hi this is new document");
 
