@@ -1,8 +1,11 @@
 import streamlit
 import pandas
+import requests
+import respose
+
 streamlit.title("Hi this is new document");
 
-import requests
+
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 streamlit.text(fruityvice_response)
 
